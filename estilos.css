@@ -93,30 +93,13 @@ a{
     width: 60px;
     height: auto;
     margin: -20px -24px -20px 0;
-    border-radius: 0 24px 24px 0;
+    border-radius: 0 24px 24px 0;   
 }
 
-@media (max-width:800px) {
-    .addbtn{
-        width: 60px;
-        height: 60px;
-        left: 0px;
-        top: 90vh;
-    }
-    
-    .addbtn a{
-        line-height: 60px;
-    }
-
-    .tasklist{
-        margin: 40px 20px 0 20px;
-    }
-
-    .task{
-        max-width: 100vw;
-    }
-
-    .task *{
-        padding-left: 10px;
-    }
+.delbtn:hover{
+    background-color: #ff5858;
+    box-shadow: -1px 0 2px black;
+    transition: background-color 300ms;
+    transition: box-shadow 300ms;
 }
+
